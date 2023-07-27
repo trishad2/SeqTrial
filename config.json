@@ -1,0 +1,23 @@
+{
+  "hyperparameters": {
+    "learning_rate": 0.0001,
+    "alpha": 15,
+    "beta": 3,
+    "num_epochs": 200,
+    "hidden_size": 256
+  },
+  "data_paths": {
+    "train_data": "data/train_df_OS.csv",
+    "valid_data": "data/valid_df_OS.csv",
+    "train_label": "data/train_labels_os.pkl",
+    "valid_label": "data/valid_labels_os.pkl",
+    "ae_emb_dict": "data/ae_emb_dict.pickle",
+    "med_emb_dict": "data/med_emb_dict.pickle",
+    "treatment_emb_dict": "data/treatment_emb_dict.pickle",
+    "syn_path": "data/digital_twins/"
+  },
+  "model_paths":{
+    "pretrained_encoder": "models/pretrained_encoder_MLM_biobert_e100.pkl", 
+    "best_model_path":  "models/"
+  }
+}
